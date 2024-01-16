@@ -187,3 +187,18 @@ table {
     width: 100%;
     border-collapse: collapse;
   }
+
+@media screen and (max-width: 720px) {
+    .container-box{
+        display: block;
+        width: 100%;
+    }
+
+    .box-about .title {
+        font-size: 25px;
+    }
+
+    .box-about .summary{
+        font-size: 18px;
+    }
+}
