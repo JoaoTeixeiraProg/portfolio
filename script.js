@@ -14,11 +14,17 @@ const toggleModal = () => {
     });
 
 function linkedIn() {
-    window.location.href = "https://www.linkedin.com/in/joao-vitor-teixeira-desenvolvedor-front-end/"; // Substitua "https://www.seulink.com" pelo link desejado
+    window.location.href = "https://www.linkedin.com/in/joao-vitor-teixeira-desenvolvedor-front-end/"; 
+function startHash() {
+    window.location.href = "https://joaoteixeiraprog.github.io/jogo-da-velha/"; 
 }
 
-function startHash() {
-    window.location.href = "https://joaoteixeiraprog.github.io/jogo-da-velha/"; // Substitua "https://www.seulink.com" pelo link desejado
+function startForm() {
+    window.location.href = "https://joaoteixeiraprog.github.io/formulario/";
+}
+
+function startSite() {
+    window.location.href = "#"; 
 }
 
 
