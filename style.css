@@ -177,10 +177,33 @@ body{
 }
 
 tr{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color:black;
+}
+
+tr.tr_title{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+tr.tr_button{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+td.td_title{
+    width: calc(100% / 3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+td.td_button{
+    width: calc(100% / 3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 table {
@@ -200,5 +223,9 @@ table {
 
     .box-about .summary{
         font-size: 18px;
+    }
+
+    .header-modal{
+        font-size: 10px;
     }
 }
