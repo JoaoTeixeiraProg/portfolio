@@ -212,6 +212,32 @@ table {
   }
 
 @media screen and (max-width: 720px) {
+
+    #modal-project{
+        max-width: 85%;
+    }
+
+    .tr_title{
+        width: 100%;
+    }
+
+    tr.tr_title{
+        justify-content: start;
+    }
+
+    tr.tr_button{
+        justify-content: start;
+    }
+
+    td.td_title{
+        width: calc(306px / 3);
+        text-align: center;
+    }
+
+    td.td_button{
+        width: calc(306px / 3);
+    }
+
     .container-box{
         display: block;
         width: 100%;
@@ -221,8 +247,8 @@ table {
         font-size: 25px;
     }
 
-    .box-about .summary{
-        font-size: 18px;
+    .summary{
+        margin-top: 15px;
     }
 
     .header-modal{
